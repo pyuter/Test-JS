@@ -29,6 +29,9 @@ const a = prompt('Один из последних просмотренных ф
 
 const b = prompt('На сколько оцените его?', '')
 
+const c = prompt('Один из последних просмотренных фильмов?', '')
+
+const d = prompt('На сколько оцените его?', '')
 
 let personalMovieDB = {
     count: numberOfFilms,
@@ -39,5 +42,6 @@ let personalMovieDB = {
 }
 
 personalMovieDB.movies[a] = b
+personalMovieDB.movies[c] = d
 
 console.log(personalMovieDB)
